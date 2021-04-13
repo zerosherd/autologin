@@ -14,8 +14,8 @@
 
 window.onload=function autorun() {
 if ( $("input[name=DDDDD]").length > 0 ) {
-    $("input[name=DDDDD]").val("182017583");
-    $("input[name=upass]").val("07300016");
+    $("input[name=DDDDD]").val("Your account");
+    $("input[name=upass]").val("Your password");
     $("input[name=network]").prop("checked","true");
     $("input[name=0MKKey]").eq(1).click();
     window.close();
